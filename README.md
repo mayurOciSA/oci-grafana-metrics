@@ -1,4 +1,4 @@
-# About OCI Grafana Metrics plugin
+# About OCI Metrics for Grafana
 
 ## Installation
 
@@ -19,24 +19,22 @@ running the setup.
 
 ## Note
 
-If you're using a version of Grafana that's older than 6.0, you will need to 
-download the zip file and install this plugin manually, or chmod the binary 
-that is downloaded to make it executable.
+You need Grafana 8.x.x version installed for OCI Metrics for Grafana installation
 
 In order to simplify the installation process, we created detailed guides for you to follow:
 
-* Install Grafana and the Oracle Cloud Infrastructure Data Source for Grafana
+* Install Grafana and the OCI Metrics for Grafana
  on a Linux host using [this document](https://github.com/oracle/oci-grafana-plugin/blob/master/docs/linux.md).
-* Install Grafana and the Oracle Cloud Infrastructure Data Source for Grafana
+* Install Grafana and the OCI Metrics for Grafana
  on a MacOS host using [this document](https://github.com/oracle/oci-grafana-plugin/blob/master/docs/macos.md).
-* Install Grafana and the Oracle Cloud Infrastructure Data Source for Grafana
+* Install Grafana and the OCI Metrics for Grafana
  on a virtual machine in Oracle Cloud Infrastructure using [this document](https://github.com/oracle/oci-grafana-plugin/blob/master/docs/linuxoci.md).
-* Install Grafana and the Oracle Cloud Infrastructure Data Source for Grafana 
+* Install Grafana and OCI Metrics for Grafana
 on a virtual machine in Oracle Cloud Infrastructure using Terraform using [this document](https://github.com/oracle/oci-grafana-plugin/blob/master/docs/terraform.md).
-* Install Grafana and the Oracle Cloud Infrastructure Data Source for Grafana 
+* Install Grafana and the OCI Metrics for Grafana
 on Kubernetes in Oracle Cloud Infrastructure using [this document](https://github.com/oracle/oci-grafana-plugin/blob/master/docs/kubernetes.md)
 
-Once you have the data source installed, configure your datasource with your 
+Once you have the OCI Metrics for Grafana installed, configure your datasource with your 
 tenancy OCID, default region, and where you're running the plugin 
 (Oracle Cloud or elsewhere).
 
@@ -45,7 +43,7 @@ plugin in our [Using Grafana with Oracle Cloud Infrastructure Data Source](https
 
 ### Debugging
 
-Please make sure that the golang version installed is ```1.16``` and grafana version installed is < 8 
+Please make sure that the golang version installed is ```1.16``` and grafana version installed is 8.x.x 
 
 If you want to debug golang backend plugin code, follow the steps below:
 
